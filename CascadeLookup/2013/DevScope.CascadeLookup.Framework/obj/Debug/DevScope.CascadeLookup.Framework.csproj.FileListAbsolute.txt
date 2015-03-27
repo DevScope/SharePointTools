@@ -1,4 +1,0 @@
-C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup.Framework\bin\Debug\DevScope.CascadeLookup.Framework.dll
-C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup.Framework\bin\Debug\DevScope.CascadeLookup.Framework.pdb
-C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup.Framework\obj\Debug\DevScope.CascadeLookup.Framework.dll
-C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup.Framework\obj\Debug\DevScope.CascadeLookup.Framework.pdb
