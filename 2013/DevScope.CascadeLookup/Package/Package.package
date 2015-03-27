@@ -1,0 +1,31 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<package xmlns:dm0="http://schemas.microsoft.com/VisualStudio/2008/DslTools/Core" dslVersion="1.0.0.0" Id="ee322b8f-9439-4f59-b4a6-59566af45a82" solutionId="ee322b8f-9439-4f59-b4a6-59566af45a82" resetWebServer="false" sharePointProductVersion="15.0" name="DevScope.CascadeLookup" xmlns="http://schemas.microsoft.com/VisualStudio/2008/SharePointTools/PackageModel">
+  <assemblies>
+    <projectOutputAssembly location="DevScope.CascadeLookup.Framework.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\DevScope.CascadeLookup.Framework\DevScope.CascadeLookup.Framework.csproj">
+      <safeControls>
+        <safeControl namespaceName="DevScope.CascadeLookup.Framework" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="DevScope.CascadeLookup.Common.dll" deploymentTarget="GlobalAssemblyCache" projectPath="..\DevScope.CascadeLookup.Common\DevScope.CascadeLookup.Common.csproj">
+      <safeControls>
+        <safeControl namespaceName="DevScope.CascadeLookup.Common" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+    <projectOutputAssembly location="DevScope.CascadeLookup.dll" deploymentTarget="GlobalAssemblyCache">
+      <safeControls>
+        <safeControl namespaceName="DevScope.CascadeLookup" typeName="*" isSafeAgainstScript="false" />
+      </safeControls>
+    </projectOutputAssembly>
+  </assemblies>
+  <features>
+    <featureReference itemId="b9142c5e-4f87-478c-84fc-afd0f314ec29" />
+  </features>
+  <projectItems>
+    <projectItemReference itemId="2f850339-87a1-4534-b759-d56af597e241" />
+    <projectItemReference itemId="10471dd3-27ad-44c5-b786-36902336cf7f" />
+    <projectItemReference itemId="abc158cf-792c-463d-854c-32bfeb5a2a4a" />
+    <projectItemReference itemId="e13c27bc-b7d2-4128-b702-6c9cfa678569" />
+    <projectItemReference itemId="7f641552-f96c-4a52-b023-952b9d83cc10" />
+    <projectItemReference itemId="4354dd7b-13d7-469f-9278-6b4ffdd4b0af" />
+  </projectItems>
+</package>

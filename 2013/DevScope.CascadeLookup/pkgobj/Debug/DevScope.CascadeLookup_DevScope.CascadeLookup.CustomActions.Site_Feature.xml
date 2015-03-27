@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Feature xmlns="http://schemas.microsoft.com/sharepoint/" Description="DevScope.CascadeLookup CustomActions for site collection" Hidden="TRUE" Id="b151243f-9b36-437b-9ce9-12d3d10b0cd3" Scope="Site" Title="DevScope.CascadeLookup.CustomActions.Site">
+  <ElementManifests>
+    <ElementManifest Location="CascadeModeCustomAction\Elements.xml" />
+  </ElementManifests>
+</Feature>

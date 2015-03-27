@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="ee322b8f-9439-4f59-b4a6-59566af45a82" SharePointProductVersion="15.0">
+  <Assemblies>
+    <Assembly Location="DevScope.CascadeLookup.Framework.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="DevScope.CascadeLookup.Framework" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="DevScope.CascadeLookup.Common.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="DevScope.CascadeLookup.Common" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+    <Assembly Location="DevScope.CascadeLookup.dll" DeploymentTarget="GlobalAssemblyCache">
+      <SafeControls>
+        <SafeControl Namespace="DevScope.CascadeLookup" TypeName="*" />
+      </SafeControls>
+    </Assembly>
+  </Assemblies>
+  <RootFiles>
+    <RootFile Location="Resources\CascadeLookupResources.resx" />
+    <RootFile Location="Resources\CascadeLookupResources.en-US.resx" />
+    <RootFile Location="ISAPI\CascadeLookupService.svc" />
+  </RootFiles>
+  <TemplateFiles>
+    <TemplateFile Location="CONTROLTEMPLATES\CascadeLookupFieldControl.ascx" />
+    <TemplateFile Location="CONTROLTEMPLATES\CascadeLookupFieldEditor.ascx" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookup.min.js.map" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookupUtils.min.js.map" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\jquery.cascandingdropdown.min.js.map" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Css\cascadeLookup.css" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Css\cascadeLookup.min.css" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Images\ajax-loader.gif" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Images\config.png" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Images\config16.png" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookup.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookup.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookupUtils.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\cascadeLookupUtils.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\CascadingOld.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\jquery-ui-1.10.4.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\jquery-1.11.2.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\jquery.cascandingdropdown.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\jquery.cascandingdropdown.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Js\knockout-3.1.0.min.js" />
+    <TemplateFile Location="LAYOUTS\DevScope.CascadeLookup\Pages\CascadeLookupConfig.aspx" />
+    <TemplateFile Location="XML\fldtypes_CascadeLookupField.xml" />
+    <TemplateFile Location="LAYOUTS\XSL\fldtypes_CascadeLookupField.xsl" />
+  </TemplateFiles>
+  <FeatureManifests>
+    <FeatureManifest Location="DevScope.CascadeLookup_DevScope.CascadeLookup.CustomActions.Site\Feature.xml" />
+  </FeatureManifests>
+</Solution>

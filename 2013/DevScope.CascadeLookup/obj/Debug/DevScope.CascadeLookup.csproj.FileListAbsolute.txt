@@ -1,0 +1,5 @@
+C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup\obj\Debug\DevScope.CascadeLookup.csprojResolveAssemblyReference.cache
+C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup\bin\Debug\DevScope.CascadeLookup.dll
+C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup\bin\Debug\DevScope.CascadeLookup.pdb
+C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup\obj\Debug\DevScope.CascadeLookup.dll
+C:\Dev\CascadeLookup\DevScope.CascadeLookup.2013\DevScope.CascadeLookup\obj\Debug\DevScope.CascadeLookup.pdb

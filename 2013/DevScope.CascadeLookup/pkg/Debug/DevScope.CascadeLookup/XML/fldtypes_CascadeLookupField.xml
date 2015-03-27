@@ -1,0 +1,24 @@
+﻿<FieldTypes>
+  <FieldType>
+    <Field Name="TypeName">CascadeLookup</Field>
+    <Field Name="ParentType">Lookup</Field>
+    <Field Name="TypeDisplayName">Cascade Lookup</Field>
+    <Field Name="TypeShortDescription">Cascade Lookup</Field>
+    <Field Name="UserCreatable">TRUE</Field>
+    <Field Name="ShowOnListCreate">TRUE</Field>
+    <Field Name="ShowOnSurveyCreate">TRUE</Field>
+    <Field Name="ShowOnDocumentLibraryCreate">TRUE</Field>
+    <Field Name="ShowOnColumnTemplateCreate">TRUE</Field>
+    <Field Name="FieldTypeClass">DevScope.CascadeLookup.CascadeLookupFieldType, DevScope.CascadeLookup, Version=1.0.0.0, Culture=neutral, PublicKeyToken=856e47121577668e</Field>
+    <Field Name="FieldEditorUserControl">/_controltemplates/15/CascadeLookupFieldEditor.ascx</Field>
+    <PropertySchema>
+      <Fields>
+        <Field Name="ListGuid" DisplayName="ListGuid" MaxLength="255" DisplaySize="100" Type="Text" Hidden="TRUE" />
+        <Field Name="ListColumn" DisplayName="ListColumn" MaxLength="255" DisplaySize="100" Type="Text" Hidden="TRUE" />
+        <Field Name="Dependencies" DisplayName="Dependencies" Type="Boolean" Hidden="TRUE" />
+        <Field Name="DependencyListColumn" DisplayName="DependencyListColumn" MaxLength="255" DisplaySize="100" Type="Text" Hidden="TRUE" />
+        <Field Name="DependencyColumn" DisplayName="DependencyColumn" MaxLength="255" DisplaySize="100" Type="Text" Hidden="TRUE" />
+      </Fields>
+    </PropertySchema>
+  </FieldType>
+</FieldTypes>

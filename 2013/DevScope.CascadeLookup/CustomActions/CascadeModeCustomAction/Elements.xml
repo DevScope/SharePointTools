@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Elements xmlns="http://schemas.microsoft.com/sharepoint/">
+  <CustomAction ShowInLists="TRUE" Id="CascadeModeCustomAction" RegistrationType="ContentType" RegistrationId="0x" Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.List.Settings.Controls._children">
+          <Button Id="Ribbon.ListItem.Actions.CascadeModeCustomAction" Alt="Cascade Lookup Config" Sequence="10" Image32by32="/_layouts/15/DevScope.CascadeLookup/images/config.png" Image16by16="/_layouts/15/DevScope.CascadeLookup/images/config16.png" Command="CascadeModeCustomAction_Command" LabelText="Cascade Lookup Config" TemplateAlias="o2"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="CascadeModeCustomAction_Command" CommandAction="javascript:DVCLOpenSPDialog('/_layouts/15/DevScope.CascadeLookup/Pages/CascadeLookupConfig.aspx?listID={ListId}', 400, 200);" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction ShowInLists="TRUE" Id="CascadeModeCustomActionDocLib" RegistrationType="ContentType" RegistrationId="0x" Location="CommandUI.Ribbon">
+    <CommandUIExtension>
+      <CommandUIDefinitions>
+        <CommandUIDefinition Location="Ribbon.Library.Settings.Controls._children">
+          <Button Id="Ribbon.ListItem.Actions.CascadeModeCustomAction" Alt="Cascade Lookup Config" Sequence="10" Image32by32="/_layouts/15/DevScope.CascadeLookup/images/config.png" Image16by16="/_layouts/15/DevScope.CascadeLookup/images/config16.png" Command="CascadeModeCustomAction_Command" LabelText="Cascade Lookup Config" TemplateAlias="o2"/>
+        </CommandUIDefinition>
+      </CommandUIDefinitions>
+      <CommandUIHandlers>
+        <CommandUIHandler Command="CascadeModeCustomAction_Command" CommandAction="javascript:DVCLOpenSPDialog('/_layouts/15/DevScope.CascadeLookup/Pages/CascadeLookupConfig.aspx?listID={ListId}', 400, 200);" />
+      </CommandUIHandlers>
+    </CommandUIExtension>
+  </CustomAction>
+  <CustomAction Id="CascadeModeCustomAction.Ribbon.FunctionsScript" Location="ScriptLink" ScriptSrc="/_layouts/15/DevScope.CascadeLookup/Js/cascadeLookupUtils.min.js" />
+</Elements>
